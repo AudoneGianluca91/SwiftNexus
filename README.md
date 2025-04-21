@@ -15,7 +15,7 @@ Thank you
 | **Platforms** | macOS 14 · Linux 22.04 · Windows 11 · iOS 17 (bundle interpreters) |
 | **License** | MIT |
 
-![architecture diagram](https://raw.githubusercontent.com/your/PyWrap/assets/arch.svg)
+
 
 PyWrap embeds CPython and R inside a single Swift binary, then uses Swift 6 macros to generate **typed wrappers** so NumPy, pandas, PyTorch, and R `stats` feel like native Swift modules — while sharing the *same* memory buffers and optional GPU back‑ends.
 
